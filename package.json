@@ -1,0 +1,54 @@
+{
+  "name": "weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "core-js": "^3.4.3",
+    "fusioncharts": "^3.14.1",
+    "moment": "^2.24.0",
+    "serve": "^11.2.0",
+    "vue": "^2.6.10",
+    "vue-chartjs": "^3.5.0",
+    "vue-fusioncharts": "^3.0.4",
+    "vue-loading-overlay": "^3.2.0",
+    "vue-moment": "^4.0.0",
+    "vue-toasted": "^1.1.27",
+    "vue2-google-maps": "^0.10.7",
+    "xml2json-light": "^1.0.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "latest",
+    "@vue/cli-plugin-eslint": "latest",
+    "@vue/cli-service": "latest",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
