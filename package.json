@@ -17,7 +17,7 @@
     "vue-chartjs": "^3.5.0",
     "vue-fusioncharts": "^3.0.4",
     "vue-loading-overlay": "^3.2.0",
-    "vue-moment": "^4.0.0",
+    "vue-moment": "^4.1.0",
     "vue-toasted": "^1.1.27",
     "vue2-google-maps": "^0.10.7",
     "xml2json-light": "^1.0.6"
